@@ -8,6 +8,12 @@
 // 2. Slow deletion
 // 3. Fixed size (static arrays)
 
+///////////////////////////// complexity ////////////////////////
+// lookop -> O(1)
+// push -> O(1)
+// insert -> O(n)
+// delete -> O(n)
+
 const strings = ['a', 'b', 'c', 'd']; // 4*4 = 16 bytes
 
 strings[0]; // O(1)
